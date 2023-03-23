@@ -1,0 +1,15 @@
+D:\Университет\LR_3\bin\Debug\net6.0\LR_3.exe
+D:\Университет\LR_3\bin\Debug\net6.0\LR_3.deps.json
+D:\Университет\LR_3\bin\Debug\net6.0\LR_3.runtimeconfig.json
+D:\Университет\LR_3\bin\Debug\net6.0\LR_3.dll
+D:\Университет\LR_3\bin\Debug\net6.0\LR_3.pdb
+D:\Университет\LR_3\obj\Debug\net6.0\LR_3.csproj.AssemblyReference.cache
+D:\Университет\LR_3\obj\Debug\net6.0\LR_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Университет\LR_3\obj\Debug\net6.0\LR_3.AssemblyInfoInputs.cache
+D:\Университет\LR_3\obj\Debug\net6.0\LR_3.AssemblyInfo.cs
+D:\Университет\LR_3\obj\Debug\net6.0\LR_3.csproj.CoreCompileInputs.cache
+D:\Университет\LR_3\obj\Debug\net6.0\LR_3.dll
+D:\Университет\LR_3\obj\Debug\net6.0\refint\LR_3.dll
+D:\Университет\LR_3\obj\Debug\net6.0\LR_3.pdb
+D:\Университет\LR_3\obj\Debug\net6.0\LR_3.genruntimeconfig.cache
+D:\Университет\LR_3\obj\Debug\net6.0\ref\LR_3.dll
