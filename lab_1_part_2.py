@@ -41,6 +41,7 @@ def transpose_matrix(sub_matrix: np.array, semaphore = None):
             sub_matrix = sub_matrix.transpose()
     else:
         sub_matrix = sub_matrix.transpose()
+    return sub_matrix
     # interrupt_main()
     # print(
     #     f"Транспонированная часть матрицы: {sub_matrix}"
