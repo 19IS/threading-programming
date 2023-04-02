@@ -34,7 +34,7 @@ Y_AXIS = int(args.y_axis)
 TREADS_COUNT = int(args.threads_count)
 
 
-def transpose_matrix(sub_matrix: np.array, semaphore: None):
+def transpose_matrix(sub_matrix: np.array, semaphore = None):
     # Транспонирование матрицы
     if semaphore:
         with semaphore:
