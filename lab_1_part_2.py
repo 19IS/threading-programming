@@ -4,7 +4,7 @@ import datetime
 import threading
 
 import numpy as np
-
+from _thread import interrupt_main
 parser = argparse.ArgumentParser()
 
 parser.add_argument(
@@ -34,12 +34,17 @@ Y_AXIS = int(args.y_axis)
 TREADS_COUNT = int(args.threads_count)
 
 
-def transpose_matrix(sub_matrix: np.array):
+def transpose_matrix(sub_matrix: np.array, semaphore: None):
     # Транспонирование матрицы
-    sub_matrix = sub_matrix.transpose()
-    print(
-        f"Транспонированная часть матрицы: {sub_matrix}"
-    )
+    if semaphore:
+        with semaphore:
+            sub_matrix = sub_matrix.transpose()
+    else:
+        sub_matrix = sub_matrix.transpose()
+    # interrupt_main()
+    # print(
+    #     f"Транспонированная часть матрицы: {sub_matrix}"
+    # )
 
 
 def generate_matrix(x_size: int = 120, y_size: int = 120) -> np.array:
@@ -65,7 +70,7 @@ def main():
     )
     
     print(f"Сгенерирована матрица {matrix.shape[0]} x {matrix.shape[1]} с числами от 0 до 99:")
-    print(matrix)
+    # print(matrix)
     
     
     start_time = datetime.datetime.now()
